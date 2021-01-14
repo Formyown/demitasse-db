@@ -1,4 +1,4 @@
-package io.dynabiz.demitassedb;
+package org.dynabiz.demitassedb;
 
 class ValueNode {
     Object value = null;

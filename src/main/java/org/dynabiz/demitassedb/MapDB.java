@@ -1,6 +1,5 @@
-package io.dynabiz.demitassedb;
+package org.dynabiz.demitassedb;
 
-import com.sun.istack.internal.NotNull;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -73,7 +72,6 @@ public class MapDB implements DB {
         return null;
     }
 
-    @NotNull
     private ValueNode mapGetNodeAfterTTL(String key){
         ValueNode node = storageMap.get(key);
         if(node == null) return NULL_NODE;

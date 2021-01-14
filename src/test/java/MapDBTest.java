@@ -1,5 +1,5 @@
-import io.dynabiz.demitassedb.DB;
-import io.dynabiz.demitassedb.MapDB;
+import org.dynabiz.demitassedb.DB;
+import org.dynabiz.demitassedb.MapDB;
 import org.junit.Test;
 
 public class MapDBTest {

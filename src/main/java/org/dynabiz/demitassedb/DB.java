@@ -1,4 +1,4 @@
-package io.dynabiz.demitassedb;
+package org.dynabiz.demitassedb;
 
 public interface DB {
     Object get(String key);
