@@ -17,6 +17,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>jetsky</id>
+            <name>Releases Repository</name>
+            <url>http://maven.jetskytec.com/nexus/repository/dynabiz/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
