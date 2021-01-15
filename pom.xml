@@ -19,9 +19,9 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>jetsky</id>
-            <name>Releases Repository</name>
-            <url>http://maven.jetskytec.com/nexus/repository/dynabiz/</url>
+            <id>github</id>
+            <name>github-package</name>
+            <url>https://maven.pkg.github.com/Formyown/demitasse-db</url>
         </repository>
     </distributionManagement>
 
